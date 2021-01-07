@@ -6,7 +6,6 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
     </head>
-
     <body>
         <header class="mb-4">
             <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
@@ -28,6 +27,8 @@
         </header>
 
         <div class="container">
+            @include('commons.error_tasks')
+            
             @yield('content')
         </div>
 
